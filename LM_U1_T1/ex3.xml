@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<librococina>
+  <receta>
+
+    <nombre>sandwich</nombre>
+    <condimentos>pan,carne,ketchup</condimentos>
+    <materiales>cuchillo,plato</materiales>
+    <pasos>
+      <paso orden="1">cortar pan</paso>
+      <paso orden="2">poner condimentos dentro del pan y dejar en el plato</paso>
+    </pasos>
+
+
+
+
+
+    </receta>
+
+    <receta>
+
+      <nombre>cereales manchados</nombre>
+      <condimentos>cereales,leche,sirope</condimentos>
+      <materiales>cuchara,bol de cereales</materiales>
+      <pasos>
+        <paso orden="1">hechar la leche y cereales en el bol</paso>
+        <paso orden="2">hechar el sirope y remover con la cuchara</paso>
+      </pasos>
+
+
+
+
+
+
+
+
+
+    </receta>
+
+</librococina>

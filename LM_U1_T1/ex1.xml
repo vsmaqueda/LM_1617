@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<libronotas>
+
+  <alumno1>
+    <nombre>dani</nombre>
+    <dni>636272y</dni>
+
+      <FOL>9</FOL>
+      <GBD>5</GBD>
+  </alumno1>
+
+  <alumno2>
+    <nombre>willy</nombre>
+    <dni>634343f</dni>
+
+      <FOL>3</FOL>
+      <GBD>5</GBD>
+  </alumno2>
+
+  <alumno3>
+    <nombre>manu</nombre>
+    <dni>6372382p</dni>
+
+      <FOL>6</FOL>
+      <GBD>10</GBD>
+  </alumno3>
+
+  <alumno4>
+    <nombre>david</nombre>
+    <dni>636245g</dni>
+
+      <FOL>4</FOL>
+      <GBD>8</GBD>
+  </alumno4>
+
+  <alumno5>
+    <nombre>ana</nombre>
+    <dni>43284145q</dni>
+
+      <FOL>10</FOL>
+      <GBD>1</GBD>
+  </alumno5>
+
+  <alumno6>
+    <nombre>laura</nombre>
+    <dni>635432111e</dni>
+
+      <FOL>3</FOL>
+      <GBD>3</GBD>
+  </alumno6>
+
+  <alumno7>
+    <nombre>juan</nombre>
+    <dni>46281934g</dni>
+
+      <FOL>7</FOL>
+      <GBD>5</GBD>
+  </alumno7>
+
+  <alumno8>
+    <nombre>pepe</nombre>
+    <dni>63478446u</dni>
+
+      <FOL>9</FOL>
+      <GBD>9</GBD>
+  </alumno8>
+
+  <alumno9>
+    <nombre>francis</nombre>
+    <dni>6362725</dni>
+
+      <FOL>9</FOL>
+      <GBD>5</GBD>
+  </alumno9>
+
+  <alumno10>
+    <nombre>jorge</nombre>
+    <dni>352672y</dni>
+
+      <FOL>4</FOL>
+      <GBD>7</GBD>
+  </alumno10>
+
+
+</libronotas>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bus>
+  <ruta>
+
+    <parada>
+      <calle>willy</calle>
+      <hora>9h</hora>
+    </parada>
+
+    <parada>
+      <calle>alamo</calle>
+      <hora>10h</hora>
+    </parada>
+
+    <parada>
+      <calle>haston</calle>
+      <hora>11h</hora>
+    </parada>
+
+    <parada>
+      <calle>rocky</calle>
+      <hora>12h</hora>
+    </parada>
+
+    <parada>
+      <calle>teddy</calle>
+      <hora>13h</hora>
+    </parada>
+
+    <parada>
+      <calle>marco</calle>
+      <hora>14h</hora>
+    </parada>
+
+    <parada>
+      <calle>league</calle>
+      <hora>13h</hora>
+    </parada>
+
+    <parada>
+      <calle>vegetita</calle>
+      <hora>14h</hora>
+    </parada>
+
+    <parada>
+      <calle>sand</calle>
+      <hora>15h</hora>
+    </parada>
+
+    <parada>
+      <calle>stax</calle>
+      <hora>17h</hora>
+    </parada>
+
+
+
+</ruta>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</bus>
