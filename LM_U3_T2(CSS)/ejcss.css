@@ -1,0 +1,82 @@
+#container{
+  width: 900px;
+  margin: 10px auto;
+  background-color:grey;
+}
+
+
+body{
+
+}
+.simple{
+  width: 700px;
+  margin: 10px auto;
+  background-color: #FFFFFF;
+
+}
+#primero{
+  display: inline;
+  margin: 20px;
+}
+#segundo{
+  display: inline;
+  margin: 20px;
+}
+#tercero{
+  display: inline;
+  margin: 20px;
+}
+#cuarto{
+  display: inline;
+  margin: 15px;
+}
+#quinto{
+  display: inline;
+  margin-left: 290px;
+
+}
+#quinto img{
+  width: 15px;
+  height: 15px;
+}
+
+
+
+
+
+
+
+
+#image {
+  width: 700px;
+  margin: 0px auto;
+  background-color: #FFFFFF;
+  overflow-y: auto;
+}
+
+#image img {
+
+  width: 660px;
+  margin:10px 20px;
+}
+#textogrande{
+
+  width: 700px;
+  margin: 10px auto;
+  overflow-y: auto;
+  --background-color: #FF0000;
+}
+.texto1{
+  background-color: #FFFFFF;
+  overflow-y: auto;
+  width: 165px;
+  float:left;
+  margin-right: 10px;
+  font-size: 0.5em;
+
+}
+.texto1 img {
+  margin: 8px;
+
+
+}
