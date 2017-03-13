@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>jQuery Template</title>
+	<!-- Loading jQUery Script -->
+	<script src="js/jquery-3.1.1.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="jquery1.css">
+	<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+	<h1>ENCABEZADO</h1>
+  <table id="tabla1" border="1px">
+    <tr><td colspan="5"><h2>Horario</h2></td></tr></head>
+    <tr>
+      <td>LM</td>
+      <td>LM</td>
+      <td>LM</td>
+      <td>LM</td>
+      <td>LM</td>
+    </tr>
+
+
+    <tr>
+      <td>ISO</td>
+      <td>ISO</td>
+      <td>ISO</td>
+      <td>ISO</td>
+      <td>ISO</td>
+    </tr>
+
+    <tr>
+      <td>GBD</td>
+      <td>GBD</td>
+      <td>GBD</td>
+      <td>GBD</td>
+      <td>GBD</td>
+    </tr>
+
+    <tr>
+      <td>FHW</td>
+      <td>FHW</td>
+      <td>FHW</td>
+      <td>FHW</td>
+      <td>FHW</td>
+    </tr>
+
+    <tr>
+      <td>RED</td>
+      <td>RED</td>
+      <td>RED</td>
+      <td>RED</td>
+      <td>RED</td>
+    </tr>
+
+    <tr>
+      <td>FOL</td>
+      <td>FOL</td>
+      <td>FOL</td>
+      <td>FOL</td>
+      <td>FOL</td>
+    </tr>
+
+  </table>
+  <table id="tabla2" border="1px">
+    <tr><td>Manolo</td>
+    </tr>
+
+    <tr><td>Pepe</td>
+    </tr>
+
+    <tr><td>Dani</td>
+    </tr>
+
+    <tr><td>Jesus</td>
+    </tr>
+
+    <tr><td>Pablo</td>
+    </tr>
+
+    <tr><td>Francis</td>
+    </tr>
+
+    <tr><td>Chema</td>
+    </tr>
+
+    <tr><td>Laura</td>
+    </tr>
+
+    <tr><td>Melanie</td>
+    </tr>
+
+    <tr><td>Alvaro</td>
+    </tr>
+
+
+
+  </table>
+
+  <p id="show">Create 4 paraghraps. Show only those with a class="show" property (at least one must be shown)</p>
+
+  <p id="p1">Create 4 paraghraps. Show only those with a class="show" property (at least one must be shown)</p>
+
+  <p id="p2">Create 4 paraghraps. Show only those with a class="show" property (at least one must be shown)</p>
+
+  <p id="p3">Create 4 paraghraps. Show only those with a class="show" property (at least one must be shown)</p>
+
+  
+
+	<script>
+	  //Function executed when the HTML document is Ready (full loaded)
+	  $(function() {
+      $("h1").addClass("cabecera");
+      $("h2").addClass("cabeza");
+      $("#tabla2 tr:odd").addClass("impar");
+      $("#tabla2 tr:even").addClass("pares");
+      $("#show").hide();
+      $("p2").show();
+      $("p3").show();
+      $("p4").show();
+
+	  });
+	</script>
+
+</body>
+</html>

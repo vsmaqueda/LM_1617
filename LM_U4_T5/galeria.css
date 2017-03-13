@@ -1,0 +1,46 @@
+*{
+  box-sizing: border-box;
+}
+
+
+
+
+#container{
+  width: 800px;
+  height: 500px;
+  margin: 0px auto;
+  border: 1px solid black;
+  background-color: blue;
+  position: relative;
+}
+
+.fotitos{
+  width: 800px;
+  height: 500px;
+  position: absolute;
+
+}
+
+
+.flechas{
+position: absolute;
+
+}
+
+.flechas img {
+  width: 100px;
+  height: 50px;
+}
+
+#flecha1{
+  top: 200px;
+  left: 5px;
+
+
+}
+
+#flecha2{
+  top: 200px;
+  right: 5px;
+
+}

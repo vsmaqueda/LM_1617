@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>jQuery Template</title>
+	<!-- Loading jQUery Script -->
+	<script src="js/jquery-3.1.1.min.js"></script>
+  <link rel="stylesheet" type="text/css" href=>
+	<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+    <body>
+      <table border= 1px id="añadir">
+        <tr>
+          <td>LM</td>
+          <td>LM</td>
+          <td>LM</td>
+          <td>LM</td>
+          <td>LM</td>
+        </tr>
+        <tr>
+          <td>LM</td>
+          <td>LM</td>
+          <td>LM</td>
+          <td>LM</td>
+          <td>LM</td>
+        </tr>
+        <tr>
+          <td>LM</td>
+          <td>LM</td>
+          <td>LM</td>
+          <td>LM</td>
+          <td>LM</td>
+        </tr>
+        <tr>
+          <td>LM</td>
+          <td>LM</td>
+          <td>LM</td>
+          <td>LM</td>
+          <td>LM</td>
+        </tr>
+      </table>
+      <input type=button value="añadir" id="add"/>
+      <input type=button value="eliminar" id="remove"/>
+
+      <script>
+    	  //Function executed when the HTML document is Ready (full loaded)
+    	  $(function() {
+          $("#add").click(function() {
+						$("#añadir").append("<tr><td>LM</td><td>LM</td><td>LM</td><td>LM</td><td>LM</td></tr>");
+					});
+					$("#remove").click(function() {
+						$("#añadir tr").remove("tr:last-child");
+					});
+
+
+
+          });
+
+
+
+    	</script>
+
+
+    </body>
+</html>

@@ -1,0 +1,70 @@
+* {
+  box-sizing: border-box;
+}
+
+.contenedor{
+  width: 500px;
+  margin: 0px auto;
+  background-color: black;
+  border-radius: 10px;
+
+
+}
+
+.partes {
+  overflow-y: auto;
+
+}
+#parte1{
+  background-color: red;
+  border-radius: 10px;
+
+
+}
+.titulos{
+  border: 30px;
+}
+
+.partes img{
+  width: 20px;
+}
+.imagenes img{
+  width: 90px ;
+  margin-top: 40px;
+
+}
+.textos{
+  color: pink;
+  margin: 20px;
+  margin-left: 100px;
+  margin-top: -60px;
+}
+
+
+#parte2{
+  background-color: blue;
+
+
+
+
+
+}
+
+#parte3{
+  background-color: orange;
+
+
+}
+
+#parte4{
+  background-color: green;
+
+
+}
+
+#parte5{
+  background-color: grey;
+  border-radius: 10px;
+
+
+}

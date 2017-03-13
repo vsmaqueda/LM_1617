@@ -1,0 +1,18 @@
+#menu li{
+	display: inline;
+	overflow-y: auto;
+}
+#menu{
+	background-color: lightblue;
+}
+#encabezado{
+	background-color: lightblue;
+}
+#cabecera{
+	background-color: lightblue;
+
+}
+#cajas {
+	background-color: lightblue;
+
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>jQuery Template</title>
+    <!-- Loading jQUery Script -->
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="galeria.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <div id="container">
+
+        <img id="foto0" class="fotitos current" width="800px" height="500px" src="https://k37.kn3.net/taringa/2/3/5/8/8/8/77/nacholcaceres/B86.jpg?8555">
+        <img id="foto1" class="fotitos" src="https://s-media-cache-ak0.pinimg.com/736x/fb/b2/db/fbb2db783a18f5cb810b23e7a9c13a9a.jpg">
+        <img id="foto2" class="fotitos" src="http://fondosparacelulares.net/wp-content/uploads/2016/03/Fondos-para-Whatsapp-Imagenes-variadas-Abril-2016_4.jpg">
+        <img id="foto3" class="fotitos" src="https://img.difoosion.com/wp-content/blogs.dir/28/files/2016/06/fondo5.jpg">
+
+        <div class="flechas" id="flecha1">
+            <img  src="https://image.flaticon.com/icons/svg/25/25618.svg"></div>
+        <div class="flechas" id="flecha2">
+            <img  src="https://image.flaticon.com/icons/svg/25/25426.svg"></div>
+          </div>
+
+    <script>
+        $(function() {
+        $(".fotitos").hide();
+        $(".fotitos:first-child").show();
+        $("#flecha2").click(function() {
+
+        if ($(".current").next(".fotitos").length !=0){
+           $(".current").removeClass("current").hide().next(".fotitos").addClass("current").show();
+      }
+
+        });
+        $("#flecha1").click(function() {
+          if ($(".current").prev(".fotitos").length !=0){
+
+          $(".current").removeClass("current").hide().prev(".fotitos").addClass("current").show();}
+
+        });
+
+
+
+
+
+
+
+
+
+
+        });
+
+    </script>
+
+
+
+  </body>
+
+</html>

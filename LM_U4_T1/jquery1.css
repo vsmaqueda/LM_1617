@@ -1,0 +1,17 @@
+.cabecera{
+  background-color: black;
+  color: white;
+}
+.cabeza{
+  background-color: red;
+  color: white;
+}
+
+.impar{
+  background-color: grey;
+  color: black;
+}
+.pares{
+  background-color: grey;
+  color: white;
+}

@@ -1,0 +1,44 @@
+* {
+  margin:0px;
+  padding:0px;
+}
+
+#container {
+  margin:auto;
+  width:1000px;
+  margin-left: auto;
+
+}
+
+nav{
+  list-style:none;
+}
+
+.padre > div {
+  float:left;
+}
+.padre div nav {
+  display:block;
+}
+.padre div nav {
+  display:none;
+  position:absolute;
+  min-width:140px;
+}
+.padre div nav div {
+  position:relative;
+}
+
+.padre div a {
+  background-color:grey;
+  padding: 10px;
+  display:block;
+  border-radius: 10px;
+}
+
+.padre div nav div nav {
+  right:-130px;
+  background-color: grey;
+  border-radius: 10px;
+  top: -10px;
+}

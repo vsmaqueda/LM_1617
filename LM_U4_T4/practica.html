@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>jQuery Template</title>
+    <!-- Loading jQUery Script -->
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="practica.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+
+  		<div id="container">
+  			<nav class="padre">
+          <div><a href="" class="clases">Parte1</a>
+            <nav>
+              <div><a href="" class="menus">menu1</a><nav>
+                <div><a href="">menu1</a></div>
+                <div><a href="">menu2</a></div>
+                <div><a href="">menu3</a></div>
+                <div><a href="">menu4</a></div>
+              </nav></div>
+              <div><a href="" class="menus">menu2</a><nav>
+                <div><a href="">menu1</a></div>
+                <div><a href="">menu2</a></div>
+                <div><a href="">menu3</a></div>
+                <div><a href="">menu4</a></div>
+              </nav></div>
+              <div><a href="" class="menus">menu3</a><nav>
+                <div><a href="">menu1</a></div>
+                <div><a href="">menu2</a></div>
+                <div><a href="">menu3</a></div>
+                <div><a href="">menu4</a></div>
+              </nav></div>
+              <div><a href="" class="menus">menu4</a>
+                <nav>
+                  <div><a href="">menu1</a></div>
+                  <div><a href="">menu2</a></div>
+                  <div><a href="">menu3</a></div>
+                  <div><a href="">menu4</a></div>
+                </nav>
+              </div>
+            </nav>
+          </div>
+
+            <div><a href="" class="clases">Parte2</a>
+    					<nav>
+    						<div><a href="" class="menus">menu1</a><nav>
+                  <div><a href="">menu1</a></div>
+                  <div><a href="">menu2</a></div>
+                  <div><a href="">menu3</a></div>
+                  <div><a href="">menu4</a></div>
+                </nav></div>
+    						<div><a href="" class="menus">menu2</a><nav>
+                  <div><a href="">menu1</a></div>
+                  <div><a href="">menu2</a></div>
+                  <div><a href="">menu3</a></div>
+                  <div><a href="">menu4</a></div>
+                </nav></div>
+    						<div><a href="" class="menus">menu3</a><nav>
+                  <div><a href="">menu1</a></div>
+                  <div><a href="">menu2</a></div>
+                  <div><a href="">menu3</a></div>
+                  <div><a href="">menu4</a></div>
+                </nav></div>
+    						<div><a href="" class="menus">menu4</a>
+    							<nav>
+    								<div><a href="">menu1</a></div>
+    								<div><a href="">menu2</a></div>
+    								<div><a href="">menu3</a></div>
+    								<div><a href="">menu4</a></div>
+    							</nav>
+    						</div>
+    					</nav>
+    				</div>
+  				<div><a href="" class="clases" >Parte3</a>
+  					<nav>
+  						<div><a href="" class="menus">menu1</a><nav>
+                <div><a href="">menu1</a></div>
+                <div><a href="">menu2</a></div>
+                <div><a href="">menu3</a></div>
+                <div><a href="">menu4</a></div>
+              </nav></div>
+  						<div><a href="" class="menus">menu2</a><nav>
+                <li><a href="">menu1</a></li>
+                <li><a href="">menu2</a></li>
+                <li><a href="">menu3</a></li>
+                <li><a href="">menu4</a></li>
+              </nav></div>
+  						<div><a href="" class="menus">menu3</a><nav>
+                <div><a href="">menu1</a></div>
+                <div><a href="">menu2</a></div>
+                <div><a href="">menu3</a></div>
+                <div><a href="">menu4</a></div>
+              </nav></div>
+  						<div><a href="" class="menus">menu4</a>
+  							<nav>
+  								<div><a href="">menu1</a></div>
+  								<div><a href="">menu2</a></div>
+  								<div><a href="">menu3</a></div>
+  								<div><a href="">menu4</a></div>
+  							</nav>
+  						</div>
+  					</nav>
+  				</div>
+          <div><a href="" class="clases">Parte4</a>
+            <nav>
+              <div><a href="" class="menus">menu1</a><nav>
+                <div><a href="">menu1</a></div>
+                <div><a href="">menu2</a></div>
+                <div><a href="">menu3</a></div>
+                <div><a href="">menu4</a></div>
+              </nav></div>
+              <div><a href="" class="menus">menu2</a><nav>
+                <div><a href="">menu1</a></div>
+                <div><a href="">menu2</a></div>
+                <div><a href="">menu3</a></div>
+                <div><a href="">menu4</a></div>
+              </nav></div>
+              <div><a href="" class="menus">menu3</a><nav>
+                <div><a href="">menu1</a></div>
+                <div><a href="">menu2</a></div>
+                <div><a href="">menu3</a></div>
+                <div><a href="">menu4</a></div>
+              </nav></div>
+              <div><a href="" class="menus">menu4</a>
+                <nav>
+                  <div><a href="">menu1</a></div>
+                  <div><a href="">menu2</a></div>
+                  <div><a href="">menu3</a></div>
+                  <div><a href="">menu4</a></div>
+                </nav>
+              </div>
+            </nav>
+          </div>
+
+
+  			</nav>
+  		</div>
+      <script>
+      $(function() {
+      $("nav>div>nav").hide();
+
+          $("nav>div").mouseenter(function(){
+            $(this).children("nav>div>nav").show();
+
+
+          });
+
+          $("nav>div").mouseleave(function(){
+            $(this).children("nav>div>nav").hide();
+
+
+          });
+      });
+
+
+
+
+
+
+
+
+
+
+      </script>
+  	</body>
+  </html>
